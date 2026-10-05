@@ -1,6 +1,6 @@
 use <smartphone.scad>
 use <holder.scad>
     
-echo ("Работа Алексея Коротких!");
+echo ("Работа Пермякова Максима!");
 smartphone();
 holder_set();
