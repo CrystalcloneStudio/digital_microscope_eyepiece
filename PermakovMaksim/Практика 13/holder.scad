@@ -1,4 +1,4 @@
-len_phone = 145;
+Dlen_phone = 145;
 width_phone = 56;
 thickness_phone = 8;
 corner_round = 8;
@@ -76,7 +76,7 @@ module vertical_block(len_block) {
         }
         color("red")
         hull() {
-            // translate([0, -len_phone/2, 0])
+            // translate([0, -len_phone/2, 0]).//
             translate([0, -len_block/2, 0])
                 cylinder(d=d_screw_m4, h=thickness_holder+2, center=true, $fn=32);
 
